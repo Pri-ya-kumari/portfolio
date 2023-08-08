@@ -1,0 +1,47 @@
+<div class="body">
+    <div>
+        <img src="assets/image/contact.jpg" class="img21">
+    </div>
+    <div class="box">
+        <div class="heading">
+            <h1>Get in Touch</h1>
+        </div>
+        <form #newform="ngForm" (ngSubmit)="save(newform)" novalidate>
+            <div class="form-group">
+                <input #name=ngModel required [class.is-invalid]="name.touched && name.invalid" type="text" name="name" class="name1" placeholder="enter name" ngModel>
+            </div>
+            <div class="alert" *ngIf="name.touched && name.invalid">
+                *Name is required
+            </div>
+            <!--new block-->
+            <div class="form-group">
+                <input  #number=ngModel required max="10" [class.is-invalid]="number.touched && number.invalid" type="number" name="number" class="name2" placeholder="enter number" ngModel>
+            </div>
+            <!--new block-->
+            <div class="form-group">
+                <input #email=ngModel required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" [class.is-invalid]="email.touched && email.invalid" type="text" name="Email" class="name3" placeholder="enter email" ngModel>
+            </div>
+            <div class="alert" *ngIf="email.touched && email.invalid">
+                *Email is required
+            </div>
+            <!--new block-->
+            <div class="form-group">
+                <textarea type="text" name="comment" class="name4" placeholder="enter message" ngModel>Enter text here...</textarea>
+            </div>
+            <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+</div>
+<div class="body2">
+    <h2 class="hd1">Portfolio</h2>
+    <h4 class="hd2">Obviously I'm a Web Designer. And searchong for job to showcase my skills and enhance my skill.</h4>
+    <a (click)="linkedin()"><img src="assets/image/linkedin.jpg" class="img1"></a>
+    <a (click)="git()"><img src="assets/image/git.jpg" class="img3"></a>
+    <a (click)="twiiter()"><img src="assets/image/twitter.jpg" class="img4"></a>
+</div>
+<div class="body3">
+    <div>
+        <img src="assets/image/copyright.jpg" class="img2">
+        <p class="p1">Portfolio. Design by Priya</p>
+    </div>
+</div>

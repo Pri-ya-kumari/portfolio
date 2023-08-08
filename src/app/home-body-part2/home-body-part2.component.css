@@ -1,0 +1,87 @@
+.block2{
+    border: 1px solid white;
+    margin: 210px;
+    margin-left:0px;
+    width: 1340px;
+    height: 600px;
+    background-color: #F5F5F5;
+}
+.img2{
+    position: relative;
+    margin-top: 18px;
+    margin-left: 66px;
+    border-radius: 20px;
+    width: 330px;
+    height: 460px;
+    box-shadow: 10px 10px 10px 4px white;
+}
+.sidede{
+    position: absolute;
+    margin-top: 525px;
+    margin-left: -45px;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 600px;
+    height: 30px;
+    background-image:linear-gradient(to right, #cc2b5e , #753a88);
+}
+.sidede1{
+    position: absolute;
+    margin-top: 579px;
+    margin-left: -45px;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 600px;
+    height: 30px;
+    background-image:linear-gradient(to right, #cc2b5e , #753a88);
+}
+.about{
+    margin-top: -760px;
+    margin-left: 630px;
+    border: 1px solid #F5F5F5;
+    width: 670px;
+    height: 400px;
+}
+.heading{
+    margin-top: -2px;
+    margin-left: 12px;
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head-body{
+    font-size: 19px;
+    margin-left: 12px;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslategray;
+}
+.button1{
+    border: 1px solid black;
+    width: 130px;
+    height: 45px;
+    border-radius: 29px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(to left, #cc2b5e , #753a88);
+    box-shadow: 0 2px 0 2px;
+    border-color: #753a88;    
+    cursor: pointer;
+}
+.button2{
+    border: 1px solid black;
+    cursor: pointer;
+    width: 170px;
+    height: 45px;
+    border-radius: 29px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(to left, #cc2b5e , #753a88);
+    box-shadow: 0 2px 0 2px;
+    border-color: #753a88;   
+}
